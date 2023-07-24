@@ -22,7 +22,7 @@ The following script creates a new conda environment named 'gnn_env' and install
 
 ```
 chmod +x config_gnn.sh
-bash confin_gnn.sh
+bash config_gnn.sh
 ```
 
 ## Introductory Programming Assignments (IPAs) Dataset
