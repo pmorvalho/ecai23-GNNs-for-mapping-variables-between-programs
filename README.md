@@ -1,6 +1,6 @@
 # ECAI 2023 - Graph Neural Networks For Mapping Variables Between Programs
 
-This repository contains the code and data used for the paper "*Graph Neural Networks For Mapping Variables Between Programs*", accepted at ECAI 2023.
+This repository contains the code and data used for the paper "*Graph Neural Networks For Mapping Variables Between Programs*", accepted at [ECAI 2023](ecai2023.eu).
 
 We present a novel graph program representation that is agnostic to the names of the variables and for each variable in the program contains a representative variable node that is connected to all the variable's occurrences. Furthermore, we use GNNs for mapping variables between programs based on our program representation, ignoring the variables' identifiers;
 We represent each program as a graph using the script gen_progs_repr.py, as explained in [1, 2].
@@ -32,7 +32,7 @@ To generate our evaluation set of C programs we used [MultIPAs](https://github.c
 
 ## References
 
-[1] Pedro Orvalho, Jelle Piepenbrock, Mikoláš Janota, and Vasco Manquinho. Graph Neural Networks For Mapping Variables Between Programs. ECAI 2023. [PDF](). *[Accepted for Publication]*
+[1] Pedro Orvalho, Jelle Piepenbrock, Mikoláš Janota, and Vasco Manquinho. Graph Neural Networks For Mapping Variables Between Programs. ECAI 2023. [PDF](https://arxiv.org/pdf/2307.13014.pdf). *[Accepted for Publication]*
 
 [2] Pedro Orvalho, Jelle Piepenbrock, Mikoláš Janota, and Vasco Manquinho. Project Proposal: Learning Variable Mappings to Repair Programs. AITP 2022. [PDF](http://aitp-conference.org/2022/abstract/AITP_2022_paper_15.pdf).
 
